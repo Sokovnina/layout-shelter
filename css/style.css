@@ -1,0 +1,474 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: Georgia;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 35px;
+}
+
+.mob-menu{
+    display: none;
+}
+
+.logo {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+}
+
+.slogan {
+    font: 400 13px Arial;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+}
+
+nav a {
+    font: 400 15px Arial;
+    text-decoration: none;
+    color: #CDCDCD;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.active {
+    border-bottom: #F1CDB3 solid 3px;
+}
+
+header {
+    padding: 60px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.hero {
+    background: url(../images/start-screen-gradient-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    background-size: cover;
+    padding-top: 163px;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.flex h1 {
+    font: 400 44px 'Georgia';
+    color: #FFFFFF;
+}
+
+.flex p {
+    max-width: 460px;
+    font: 400 15px Arial;
+    color: #CDCDCD;
+    padding-top: 42px;
+    line-height: 160%;
+}
+
+.main-button {
+    display: inline-block;
+    font: 400 17px Georgia;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+
+
+.about-shelter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 100px;
+
+}
+
+
+.about-shelter h2 {
+    font: 400 35px 'Georgia';
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 25px;
+    max-width: 370px;
+    line-height: 130%;
+}
+
+.about-shelter p {
+    font: 400 15px 'Arial';
+    color: #4C4C4C;
+    margin-bottom: 25px;
+    max-width: 430px;
+    line-height: 160%;
+}
+
+main .our-friends {
+    background: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.pet-card {
+    background-color: #fff;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font: 400 35px 'Georgia';
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    line-height: 130%;
+
+}
+
+.pet-card p {
+    font: 400 20px Georgia;
+    margin: 30px 0;
+    letter-spacing: 0.06em;
+    line-height: 23px;
+    color: #545454;
+}
+
+
+.learn-more {
+    display: inline-block;
+    padding: 15px 45px;
+    border: 2px #F1CDB3 solid;
+    border-radius: 100px;
+    color: #292929;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    font: 400 17px Georgia;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button-left {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.arrow-left {
+    background-image: url(../images/Arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+
+.button-right {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.arrow-right {
+    background-image: url(../images/Arrow\ \(3\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+
+
+
+.rest {
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    font: 400 17px Georgia;
+    color: #292929;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.help-our-shelter {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #FFFFFF;
+}
+
+.help-our-shelter h2 {
+    margin-bottom: 60px;
+}
+
+.wrapper-help-shelter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+.icon-pets {
+    font: 400 20px 'Georgia';
+    color: #545454;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.wrapper-help-shelter p {
+    margin-top: 30px;
+}
+
+.donation-pets {
+    background: #F6F6F6;
+}
+
+.donation-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.donation {
+    max-width: 380px;
+    margin-left: 30px;
+}
+
+.donation-p {
+    font: 400 15px'Georgia';
+    letter-spacing: 0.06em;
+    color: #545454;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.donation-dog h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.credit-card {
+    font: 400 20px 'Georgia';
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding: 10px 15px;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.credit-card::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+    margin-right: 15px;
+    background-image: url(../images/credit-card.svg);
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+.donation-p-two {
+    font: 400 12px'Arial';
+    font-style: italic;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+footer {
+    padding-top: 40px;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+footer .flex-wrapper>div {
+    width: 300px;
+}
+
+footer .flex-wrapper {
+    align-items: flex-start;
+}
+
+.images-puppy {
+    align-self: flex-end;
+}
+
+footer h3 {
+    font: 400 35px 'Georgia';
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer p {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    color: #F1CDB3;
+    margin-bottom: 27px;
+    font: 400 20px 'Georgia';
+    letter-spacing: 0.06em;
+}
+
+footer a {
+    color: #F1CDB3;
+    text-decoration: none;
+}
+
+footer .mail {
+    background: url(../images/icon-email.svg) no-repeat left center;
+}
+
+footer .telefon {
+    background: url(../images/icon-phone.svg) no-repeat left center;
+}
+
+footer .local {
+    background: url(../images/icon-marker.svg) no-repeat left center;
+    padding-left: 42px;
+}
+
+
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+
+@media(max-width: 850px) {
+
+    .nav a {
+        margin-left: 81px;
+    }
+
+    header {
+        padding: 30px 0;
+
+    }
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .puppy {
+        margin-top: 100px;
+    }
+
+    .about-shelter {
+        flex-direction: column-reverse;
+        max-width: 437px;
+    }
+
+    .pet-card {
+        margin-left: 40px;
+    }
+
+   
+
+    .woody {
+        display: none;
+    }
+
+    .donation-dog {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .donation-p-two {
+        margin-bottom: 60px;
+    }
+
+    footer .flex-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 500px){
+    nav{
+        display: none;
+    }
+
+    .mob-menu{
+        display: inline-block;
+        margin-left: 73px;
+    }
+
+    .flex-wrapper{
+        justify-content: center;
+    }
+
+    .jennifer {
+        display: none;
+    }
+
+    .wrapper {
+        align-items: flex-end;
+      }
+
+      .flex p{
+        max-width: 300px;
+      }
+
+}
